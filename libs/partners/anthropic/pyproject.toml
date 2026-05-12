@@ -8,7 +8,7 @@ license = { text = "MIT" }
 requires-python = "<4.0,>=3.9"
 dependencies = [
     "anthropic<1,>=0.49.0",
-    "langchain-core<1.0.0,>=0.3.53",
+    "langchain-core>=0.3.86,<1.0.0",
     "pydantic<3.0.0,>=2.7.4",
 ]
 name = "langchain-anthropic"
@@ -23,7 +23,7 @@ repository = "https://github.com/langchain-ai/langchain"
 
 [dependency-groups]
 test = [
-    "pytest<8.0.0,>=7.3.0",
+    "pytest>=8.4.2,<9.0.0",
     "freezegun<2.0.0,>=1.2.2",
     "pytest-mock<4.0.0,>=3.10.0",
     "syrupy<5.0.0,>=4.0.2",
